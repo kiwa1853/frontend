@@ -45,6 +45,7 @@ const Data = () => {
           gap: 5, // 기존 gap: 8 * 1.5
         }}
       >
+      
         {/* 여성 박스 */}
         <Box sx={boxStyle('#FF6E0B', '120px')}>여성</Box>
 
