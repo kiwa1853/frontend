@@ -5,8 +5,8 @@ import Main from './Page2Components/Main';
 function App() {
   return (
     <div className="App">
-       <MainHeader/>
-       <Title/>
+      <MainHeader/>
+      <Title/>
       <Main/>
       </div>
   );
