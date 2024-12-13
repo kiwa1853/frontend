@@ -1,16 +1,17 @@
+import Title from './Page2Components/Title'
 import './App.css';
+import  MainHeader from'./Page2Components/MainHeader'
 import Header from './PageComponents/Header';
-import Gander from './PageComponents/GanderAndAge';
-import Age from './PageComponents/Time';
-import TitleHeader from'./PageComponents/TitleHeader';
+import TestMain from './Page2Components/TestMain';
+
 function App() {
   return (
     <div className="App">
-    <Header/>
-    <TitleHeader/>
-    <Gander/>
-    <Age/>
-     </div>
+      <Header/>
+      <MainHeader/>
+      <Title/>
+      <TestMain/>
+       </div>
   );
 }
 

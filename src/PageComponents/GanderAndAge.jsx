@@ -47,7 +47,7 @@ const GanderAndAge = () => {
         >
           성별
         </Typography>
-        <Box sx={{ mt: 2.5 }}>
+        <Box sx={{ mt: 2.5 }}> 
           <Button
             variant="contained"
             onClick={() => toggleGenderSelection('female')}
