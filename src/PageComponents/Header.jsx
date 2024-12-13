@@ -65,7 +65,7 @@ export default function ButtonAppBar() {
           display: 'flex',
           justifyContent: 'center',
           boxShadow: 'none',
-         }}
+        }}
       >
         <Toolbar
           sx={{
@@ -73,27 +73,37 @@ export default function ButtonAppBar() {
             justifyContent: 'space-between',
             alignItems: 'center',
             height: '100%',
-            fontWeight:'bold'
+            fontWeight: 'bold',
+            position: 'relative', // 상대적 위치 설정
           }}
         >
-          <Typography
+          {/* 이미지 중앙 정렬 */}
+          <Box
             sx={{
-              fontSize: '2.5rem',
-              position: 'absolute',
-              left: '50%',
-              transform: 'translateX(-50%)',
-              color:'#F2F2F2'
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
+              width: '100%', // 부모 컨테이너 너비를 100%로 설정
             }}
           >
-            LOGO 
-          </Typography>
+            <img
+              src="./img/logo.jpg"
+              style={{
+                maxWidth: '25%',
+                height: 'auto',
+              }}
+              alt="Logo"
+            />
+          </Box>
 
+          {/* 날씨 및 시간 */}
           <Box
             sx={{
               display: 'flex',
               alignItems: 'center',
               gap: '10px',
-              ml: 'auto',
+              position: 'absolute',
+              right: '20px',
             }}
           >
             <Box
