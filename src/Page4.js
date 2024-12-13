@@ -1,11 +1,15 @@
 import './App.css';
-import Header from './Page2Components/MainHeader'
-import Page4Main from './Page4Components/Page4Main';
+import Header from './PageComponents/Header'
+import MainHeader from './Page2Components/MainHeader'
+import Page4Main from './Page4Components/MainData';
+import Juso from './Page4Components/Juso';
  function App() {
   return (
     <div className="App">
-      <Header/> 
-      <Page4Main/> 
+      <Header/>
+      <MainHeader/>
+       <Page4Main/> 
+       <Juso/>
       </div>
   );
 }

@@ -1,17 +1,16 @@
-import Title from './Page2Components/Title'
 import './App.css';
-import  MainHeader from'./Page2Components/MainHeader'
-import Header from './PageComponents/Header';
-import TestMain from './Page2Components/TestMain';
-
-function App() {
+import Header from './PageComponents/Header'
+import MainHeader from './Page2Components/MainHeader'
+import Page4Main from './Page4Components/MainData';
+import Juso from './Page4Components/Juso';
+ function App() {
   return (
     <div className="App">
       <Header/>
       <MainHeader/>
-      <Title/>
-      <TestMain/>
-       </div>
+       <Page4Main/> 
+       <Juso/>
+      </div>
   );
 }
 

@@ -31,7 +31,7 @@ const TestMain = () => {
       colors: dynamicColors, // 동적으로 설정된 색상 배열
       plotOptions: {
         bar: {
-          columnWidth: '25%',
+          columnWidth: '35%',
           distributed: true,
           borderRadius: 20, // 상단만 둥글게 적용
           borderRadiusApplication: 'end',
