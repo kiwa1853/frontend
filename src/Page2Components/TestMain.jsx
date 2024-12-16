@@ -16,7 +16,7 @@ const TestMain = () => {
     const dynamicColors = data.map((value) =>
       topThreeValues.includes(value) ? '#FF4500' : '#FFA07A' // 상위 3개는 진한 색, 나머지는 기본 색
     );
-
+//
     const options = {
       series: [
         {
